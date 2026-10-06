@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zefa Binena Makenda — Growth Portfolio</title>
+<style>
+:root{--bg:#0f1117;--card:#171a26;--border:#1f2437;--text:#cbd5e1;--muted:#8b9ab5;--accent:#22d3ee;--gold:#fbbf24;--purple:#a5b4fc}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:ui-monospace,Consolas,monospace;line-height:1.85}
+.wrap{max-width:800px;margin:0 auto;padding:36px 22px 100px}
+nav{position:sticky;top:0;background:rgba(15,17,23,.92);padding:14px 0;border-bottom:1px solid var(--border);display:flex;flex-wrap:wrap;gap:16px;font-size:12px;z-index:10}
+nav .brand{color:#fff;font-weight:700;margin-right:auto}
+nav a{color:var(--muted);text-decoration:none} nav a:hover{color:#fff}
+.principle{border-left:2px solid var(--accent);padding:10px 0 10px 18px;color:var(--purple);margin:28px 0;font-size:14px}
+.kicker{color:var(--gold);font-size:11px;text-transform:uppercase;margin-top:72px}
+h1{color:#fff;font-family:Georgia,serif;font-size:28px;line-height:1.25;margin:8px 0 16px}
+h2{color:#fff;font-size:18px;margin:32px 0 10px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:22px;margin:16px 0}
+.tag{background:#121624;border:1px solid var(--border);color:var(--accent);padding:4px 10px;border-radius:999px;font-size:10px;margin:4px 6px 4px 0;display:inline-block}
+.muted{color:var(--muted)} .grid{display:grid;gap:14px} @media(min-width:700px){.grid{grid-template-columns:1fr 1fr}}
+hr{border:none;border-top:1px solid var(--border);margin:56px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav>
+<span class="brand">Zefa Binena Makenda</span>
+<a href="#about">About</a>
+<a href="#spiritual">Faith & Work</a>
+<a href="#projects">Projects</a>
+<a href="#ethics">Ethics</a>
+<a href="https://github.com/zefamakenda">GitHub</a>
+</nav>
+
+<div class="principle">My journey has taught me that progress does not always happen in perfect conditions. Sometimes I study during my lunch break while machines are running around me — I use the small opportunities I have and keep moving forward.</div>
+
+<div><span class="tag">Johannesburg, SA</span><span class="tag">Cloud Computing</span><span class="tag">Cybersecurity</span><span class="tag">Linux / AWS</span></div>
+
+<section id="about">
+<div class="kicker">About Me</div>
+<h1>From Automotive & Refrigeration to IT</h1>
+<div class="card">
+<p>My name is Zefa Binena Makenda, IT student based in Johannesburg. Background in automotive mechanics and transport refrigeration at Transfrig / Thermo Commercial Vehicles — troubleshooting, safety, teamwork, problem solving.</p>
+<p>Studying at Ensign College / BYU-Pathway. Focus: cloud, cybersecurity, networking, sysadmin, IT support. My faith teaches me growth should help me serve others with honesty and responsibility.</p>
+</div>
+</section>
+
+<section id="spiritual">
+<div class="kicker">Faith & Work</div>
+<h2>Guiding Principles</h2>
+<div class="card">
+<p><b>1. Agency — D&C 58:26-28:</b> Act, learn from mistakes, improve. Used when Linux commands were hard — practiced chmod, ls -l, groups, id until easy.</p>
+<p><b>2. Knowledge — D&C 88:118:</b> Seek knowledge through study and faith. One step at a time for AWS, AD, networking.</p>
+<p><b>3. Service — Mosiah 2:17:</b> WorkshopConnect solves real workshop problems I saw. Technology should serve people.</p>
+</div>
+</section>
+
+<section id="projects">
+<div class="kicker">Projects</div>
+<h1>Work that connects background + IT</h1>
+<div class="card">
+<p style="color:#fbbf24;font-size:11px">FEATURED • WORKSHOPCONNECT</p>
+<h2>WorkshopConnect Platform</h2>
+<p>Connects workshops with customers. Workshops list services, tools, parts. Customers search, compare, request quotes, book. Example: brake-pad in Edenvale without calling many shops. Built with HTML/CSS/JS, validation, admin approval, ratings, scalability to Firebase/Supabase.</p>
+<span class="tag">HTML/CSS/JS</span><span class="tag">UX</span><span class="tag">Security</span>
+</div>
+<div class="grid">
+<div class="card"><p style="color:#fbbf24;font-size:11px">AWS & LINUX</p><h2>AWS / Linux Lab</h2><p>Users/groups, permissions, SSH, firewall, NFS/Samba, CloudShell, EC2. Taught me patience and consistency.</p><span class="tag">Linux</span><span class="tag">AWS</span></div>
+<div class="card"><p style="color:#fbbf24;font-size:11px">CLOUD ARCH</p><h2>Durfey's Laundry</h2><p>Paper-based business losing orders. Proposed cloud for customer data, orders, alerts, backups. Business-first design.</p><span class="tag">SaaS</span><span class="tag">Architecture</span></div>
+</div>
+<div class="card"><p style="color:#fbbf24;font-size:11px">HYBRID CLOUD</p><h2>IronPeak Fabrication</h2><p>Hybrid Edge + Google Cloud. Safety control local, Edge buffers during outage, Cloud for analytics & predictive maintenance. SLOs: 95% <2s dashboard, 99% delivery, <1% failures. Goal: -15% unplanned downtime.</p><span class="tag">GCP</span><span class="tag">Edge</span><span class="tag">MFA/IAM</span></div>
+</section>
+
+<section id="ethics">
+<div class="kicker">Ethics</div>
+<h2>Technical Access ≠ Permission</h2>
+<div class="card"><p>Week 2 dilemma: admin with elevated privilege accessed private data without business reason. Principles: Honesty, Responsibility, Privacy, Integrity, Accountability. Correct action: stop, preserve logs, report via security process, review least privilege.</p></div>
+</section>
+
+<hr>
+<p class="muted" style="font-size:11px">Your shareable link: https://zefamakenda.github.io — © 2026 Zefa</p>
+</div>
+</body>
+</html>
