@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merriweather:wght@400;700&display=swap');
+:root{--bg:#0a0e1a;--card:#11182d;--card2:#151e36;--border:#1e2a4a;--text:#c7d2e8;--muted:#7f8db0;--gold:#fbbf24;--cyan:#22d3ee}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 600px at 20% -10%, #1a2a5a 0%, transparent 60%), var(--bg);color:var(--text);font-family:Inter,sans-serif;line-height:1.85}
+.wrap{max-width:850px;margin:0 auto;padding:20px 22px 100px}
+nav{position:sticky;top:0;z-index:10;background:rgba(10,14,26,.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:16px 22px;margin:-20px -22px 0;display:flex;gap:18px;font-size:13px}
+nav .brand{color:#fff;font-weight:700;margin-right:auto} nav a{color:var(--muted);text-decoration:none}
+.hero{padding:70px 0 24px} .hero h1{font-family:Merriweather,serif;color:#fff;font-size:42px}
+.badge{display:inline-flex;background:rgba(34,211,238,.12);border:1px solid rgba(34,211,238,.3);color:#22d3ee;padding:6px 14px;border-radius:999px;font-size:12px}
+.principle-card{background:linear-gradient(135deg, rgba(34,211,238,.12), rgba(167,139,250,.12));border-left:3px solid #22d3ee;border-radius:16px;padding:22px;margin:28px 0}
+.kicker{color:#fbbf24;font-size:11px;text-transform:uppercase;margin-top:80px} h2.section{font-family:Merriweather,serif;color:#fff;font-size:32px}
+.card{background:linear-gradient(180deg, #151e36, #11182d);border:1px solid #1e2a4a;border-radius:20px;padding:26px;margin:18px 0}
+.tag{background:#0f1630;border:1px solid #1e2a4a;color:#22d3ee;padding:5px 12px;border-radius:999px;font-size:11px;margin:4px}
+.scripture{background:#0d1330;border:1px dashed #2a3a6a;border-radius:14px;padding:16px;margin:14px 0} .ref{color:#fbbf24;font-weight:700;font-size:12px} .text{color:#d9e2ff;font-style:italic;font-family:Merriweather,serif}
+.grid{display:grid;gap:16px} @media(min-width:700px){.grid{grid-template-columns:1fr 1fr}}
